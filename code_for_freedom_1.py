@@ -18,7 +18,7 @@ for index, pets in anime_dictionary.items():                    #creating iterat
 			anime_dictionary[index] = pets.upper()              #Since pets already in desired position, make it uppercase
 		else:
 			anime_dictionary[index] = pets.lower()
-c+=1                                                   #increment of flagship varaible
+	c+=1                                                   #increment of flagship varaible
 anime_dictionary = dict(sorted(anime_dictionary.items()))           #using sorting function to sort the dictionary acc. to key
 print()
 
