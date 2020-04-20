@@ -24,4 +24,3 @@ print()
 
 for index, pets in anime_dictionary.items():
 	print(pets)
-print()
